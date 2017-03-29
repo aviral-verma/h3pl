@@ -12,7 +12,21 @@
 			.circular-image {
                          border-radius:  50%;
 		         width:200px;height
-			
+			}
+			table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+th, td {
+    border: none;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
 		</style>
 	</head>
 	<body>
@@ -114,7 +128,7 @@
 						
 						
 						
-<div id="scoreboard" class="fluid-container">
+<div id="scoreboard" style="overflow-x:auto;">
 <header class="major">
 <h2>Scoreboard</h2>
 <table>
