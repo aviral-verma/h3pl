@@ -1,1 +1,1 @@
-# This is a h3pl site created by me(Aviral Verma).
+This is a intra-hostel cricket tournament website created by me for my hostel at IIT Kanpur.
